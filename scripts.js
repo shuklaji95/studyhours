@@ -23,7 +23,7 @@ function start() {
   localStorage.setItem("savedhours", 0);
   localStorage.setItem("savedminutes", 0);
   resume();
-  statusofclock.innerHTML = "running1";
+  statusofclock.innerHTML = "running";
 }
 var stopminute, stophours;
 function stop() {
